@@ -6,7 +6,7 @@
 
 #Write program code here
 
-vowels = "aeiouAEIOU"
+vowels = "aeiou"
 word = input("enter an English word to translate: ")
 
 if word[0] in vowels :
