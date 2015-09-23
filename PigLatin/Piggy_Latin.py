@@ -12,7 +12,7 @@ word = input("enter an English word to translate: ")
 if word[0] in vowels :
 	print (word + "yay")
 else :
-	print (word[1:] + word[0] + "ay")
+	print (word.upper()[1] + word[2:] + word.lower()[0] + "ay")
 		
 #Input- yello, hello, awesome, scratch
 
